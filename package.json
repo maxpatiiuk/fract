@@ -1,4 +1,12 @@
 {
+  "name": "fract",
+  "description": "A hobby project that tries to recreate React from scratch.",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxxxxxdlp/fract"
+  },
   "dependencies": {
     "prettier": "^2.5.1",
     "typescript": "^4.5.5"
