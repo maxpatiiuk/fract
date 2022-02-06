@@ -23,6 +23,7 @@ It is not tested and has no performance optimizations.
 - User-defined hooks (including nested hooks)
 - Support for rules-of-hooks ESLint rules
 - Chaining multiple state updates together
+- Event listeners
 - Strict mode (always ON)
   - Fract does not show warnings. It throws an exception immediately, making
     sure bugs get discovered quicker.
