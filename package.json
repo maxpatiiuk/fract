@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@maxxxxxdlp/eslint-config": "^1.0.10",
+    "browserify": "^17.0.0",
+    "node-static": "^0.7.11"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "buildDemo": "cd demo && npx tsc && npx browserify ./dist/demo/index.js -o bundle.js"
+  }
+}
