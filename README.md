@@ -2,9 +2,10 @@
 
 A hobby project that tries to recreate React from scratch.
 
-Accent is made on maintaining compatability between the APIs.
+Accent is made on maintaining compatability between the APIs while also adding
+additional strictness and removing legacy features.
 
-[Demo setup instructions](./demo/)
+[Demo](./demo/)
 
 ```yaml
 NOTE:
@@ -18,17 +19,29 @@ It is not tested and has no performance optimizations.
 
 - Functional components
 - First-class TypeScript support
-- useEffect, useCallback, useEffect hooks
-- User-defined hooks
+- useState, useEffect, useCallback, useRef and useMemo hooks
+- User-defined hooks (including nested hooks)
 - Support for rules-of-hooks ESLint rules
 - Chaining multiple state updates together
+- Strict mode (always ON)
+  - Fract does not show warnings. It throws an exception immediately, making
+    sure bugs get discovered quicker.
+  - APIs don't have default values. All arguments must explicitly provided.
 
 ### Things Fract can't do (yet):
 
+- **ReRendering**
+- **Props**
+- **Nested components**
 - JSX
+- Context
+- Portals
 - Error boundaries
 - Performance optimizations
 - DevTools integration
+- Run-time validation of intrinsic elements' attributes
+
+(Items in bold are top priority)
 
 ### Things Fract would never support:
 
