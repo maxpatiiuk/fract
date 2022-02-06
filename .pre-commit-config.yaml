@@ -124,7 +124,7 @@ repos:
         args:
           - --git-recurse
 
-  - repo: https://github.com/maxxxxxdlp/mirrors-jscpd
+  - repo: https://github.com/maxpatiiuk/mirrors-jscpd
     rev: v3.3.26
     hooks:
       - id: jscpd

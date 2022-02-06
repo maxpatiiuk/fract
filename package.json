@@ -5,7 +5,7 @@
   "licence": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/maxxxxxdlp/fract"
+    "url": "https://github.com/maxpatiiuk/fract"
   },
   "dependencies": {
     "prettier": "^2.5.1",
